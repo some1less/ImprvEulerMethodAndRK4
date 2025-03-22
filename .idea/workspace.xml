@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72b344d-bc40-46c9-bd72-6b7dcf6cb355" name="Changes" comment="Updated (normalized) main class">
-      <change afterPath="$PROJECT_DIR$/rk2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b72b344d-bc40-46c9-bd72-6b7dcf6cb355" name="Changes" comment="Implemented rk2 method (improved Euler's method)">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742663123833</updated>
       <workItem from="1742663124973" duration="1768000" />
-      <workItem from="1742667590621" duration="5154000" />
+      <workItem from="1742667590621" duration="5653000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742672348762</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented rk2 method (improved Euler's method)">
+      <option name="closed" value="true" />
+      <created>1742682519020</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742682519020</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,9 +176,10 @@
     <MESSAGE value="Moved plotting to separate file. Normalized main" />
     <MESSAGE value="Created separate class to simulate proj" />
     <MESSAGE value="Updated (normalized) main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated (normalized) main class" />
+    <MESSAGE value="Implemented rk2 method (improved Euler's method)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented rk2 method (improved Euler's method)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PSM_03$main.coverage" NAME="main Coverage Results" MODIFIED="1742672376023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PSM_03$main.coverage" NAME="main Coverage Results" MODIFIED="1742682908940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
