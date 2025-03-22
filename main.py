@@ -3,6 +3,8 @@ import math
 from plotter import plot_energies
 from simulation import run_simulation
 
+# system set up u can find in pendulum.py
+
 a0 = math.radians(30) # angle between edge positions
 w0 = 0.1 # angular speed
 dt = 0.01

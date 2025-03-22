@@ -1,9 +1,15 @@
-# system set up
 import math
+
+
+# system set up
+#######
 
 m = 1 # mass, 1 kg
 l = 10 # length
 g = 10
+
+#########
+
 
 def derivative(angle, ang_speed):
     k_a = ang_speed
