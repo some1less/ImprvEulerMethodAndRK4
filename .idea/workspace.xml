@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72b344d-bc40-46c9-bd72-6b7dcf6cb355" name="Changes" comment="Implemented rk4 method module" />
+    <list default="true" id="b72b344d-bc40-46c9-bd72-6b7dcf6cb355" name="Changes" comment="Moved plotting to separate file. Normalized main">
+      <change afterPath="$PROJECT_DIR$/simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742663123833</updated>
       <workItem from="1742663124973" duration="1768000" />
-      <workItem from="1742667590621" duration="3696000" />
+      <workItem from="1742667590621" duration="4517000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -114,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742671151597</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Moved plotting to separate file. Normalized main">
+      <option name="closed" value="true" />
+      <created>1742671544688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742671544688</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,9 +149,10 @@
     <MESSAGE value="Organised module system" />
     <MESSAGE value="Implemented graph printing" />
     <MESSAGE value="Implemented rk4 method module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented rk4 method module" />
+    <MESSAGE value="Moved plotting to separate file. Normalized main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved plotting to separate file. Normalized main" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PSM_03$main.coverage" NAME="main Coverage Results" MODIFIED="1742670328317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PSM_03$main.coverage" NAME="main Coverage Results" MODIFIED="1742671962627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
