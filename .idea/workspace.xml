@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72b344d-bc40-46c9-bd72-6b7dcf6cb355" name="Changes" comment="Project created">
+    <list default="true" id="b72b344d-bc40-46c9-bd72-6b7dcf6cb355" name="Changes" comment="Implemented basic formulas to calculate 1-step RK4">
+      <change afterPath="$PROJECT_DIR$/pendulum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rk4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -75,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742663123833</updated>
       <workItem from="1742663124973" duration="1768000" />
-      <workItem from="1742667590621" duration="2031000" />
+      <workItem from="1742667590621" duration="3370000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <option name="closed" value="true" />
@@ -85,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742664585490</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented basic formulas to calculate 1-step RK4">
+      <option name="closed" value="true" />
+      <created>1742669649716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742669649716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,9 +103,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project created" />
+    <MESSAGE value="Implemented basic formulas to calculate 1-step RK4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented basic formulas to calculate 1-step RK4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PSM_03$main.coverage" NAME="main Coverage Results" MODIFIED="1742669508140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PSM_03$main.coverage" NAME="main Coverage Results" MODIFIED="1742670328317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
